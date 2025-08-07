@@ -1,0 +1,21 @@
+mkdir git-practice
+cd git-practice
+git init
+git config user.name "**************"
+git config user.email "**************"
+echo "Hello Git" > file1.txt
+git status
+git add file1.txt
+git commit -m "Added file1.txt"
+echo "Another line" >> file1.txt
+git status
+git add file1.txt
+git commit -m "Updated file1.txt"
+echo "This is another file" > file2.txt
+git add file2.txt
+git commit -m "Added file2.txt"
+echo "new content" >> file2.txt
+#دیدن تغییرات کل ریپازیتوری
+git diff
+##دیدن تغییرات فقط یه فایل خاص مثلا
+git diff file2.txt
