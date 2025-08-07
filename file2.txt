@@ -1,2 +1,1 @@
-"This is another file" 
-"new content" 
+"start file2" 
